@@ -1,0 +1,2196 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: 'Program:MainProgram'
+  Type: TagStructure
+  Children:
+  - Name: P_Motor_01
+    Type: P_Motor
+    Children:
+    - Name: EnableIn
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.EnableIn"
+    - Name: EnableOut
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.EnableOut"
+    - Name: Inp_RunFdbk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_RunFdbk"
+    - Name: Inp_PermOK
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_PermOK"
+    - Name: Inp_NBPermOK
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_NBPermOK"
+    - Name: Inp_IntlkOK
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_IntlkOK"
+    - Name: Inp_NBIntlkOK
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_NBIntlkOK"
+    - Name: Inp_IntlkAvail
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_IntlkAvail"
+    - Name: Inp_OvldNotify
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_OvldNotify"
+    - Name: Inp_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_IOFault"
+    - Name: Inp_Sim
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_Sim"
+    - Name: Inp_Hand
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_Hand"
+    - Name: Inp_Ovrd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_Ovrd"
+    - Name: Inp_OvrdCmd
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_OvrdCmd"
+    - Name: Inp_ExtInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_ExtInh"
+    - Name: Inp_HornInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_HornInh"
+    - Name: Inp_Reset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Inp_Reset"
+    - Name: Cfg_HasJog
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasJog"
+    - Name: Cfg_HasRunFdbk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasRunFdbk"
+    - Name: Cfg_UseRunFdbk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_UseRunFdbk"
+    - Name: Cfg_AllowLocal
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_AllowLocal"
+    - Name: Cfg_HasPermObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasPermObj"
+    - Name: Cfg_HasIntlkObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasIntlkObj"
+    - Name: Cfg_HasResInhObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasResInhObj"
+    - Name: Cfg_HasRunTimeObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasRunTimeObj"
+    - Name: Cfg_HasOvldObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasOvldObj"
+    - Name: Cfg_HasMoreObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasMoreObj"
+    - Name: Cfg_OperStopPrio
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_OperStopPrio"
+    - Name: Cfg_ExtStopPrio
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_ExtStopPrio"
+    - Name: Cfg_OCmdResets
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_OCmdResets"
+    - Name: Cfg_XCmdResets
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_XCmdResets"
+    - Name: Cfg_OvrdPermIntlk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_OvrdPermIntlk"
+    - Name: Cfg_ShedOnFailToStart
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_ShedOnFailToStart"
+    - Name: Cfg_ShedOnIOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_ShedOnIOFault"
+    - Name: Cfg_HasFailToStartAlm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasFailToStartAlm"
+    - Name: Cfg_HasFailToStopAlm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasFailToStopAlm"
+    - Name: Cfg_HasIntlkTripAlm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasIntlkTripAlm"
+    - Name: Cfg_HasIOFaultAlm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_HasIOFaultAlm"
+    - Name: Cfg_FailToStartResetReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_FailToStartResetReqd"
+    - Name: Cfg_FailToStopResetReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_FailToStopResetReqd"
+    - Name: Cfg_IntlkTripResetReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_IntlkTripResetReqd"
+    - Name: Cfg_IOFaultResetReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_IOFaultResetReqd"
+    - Name: Cfg_FailToStartAckReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_FailToStartAckReqd"
+    - Name: Cfg_FailToStopAckReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_FailToStopAckReqd"
+    - Name: Cfg_IntlkTripAckReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_IntlkTripAckReqd"
+    - Name: Cfg_IOFaultAckReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_IOFaultAckReqd"
+    - Name: Cfg_FailToStartSeverity
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_FailToStartSeverity"
+    - Name: Cfg_FailToStopSeverity
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_FailToStopSeverity"
+    - Name: Cfg_IntlkTripSeverity
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_IntlkTripSeverity"
+    - Name: Cfg_IOFaultSeverity
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_IOFaultSeverity"
+    - Name: Cfg_StartHornT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_StartHornT"
+    - Name: Cfg_SimFdbkT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_SimFdbkT"
+    - Name: Cfg_FailToStartT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_FailToStartT"
+    - Name: Cfg_FailToStopT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_FailToStopT"
+    - Name: Cfg_MaxJogT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Cfg_MaxJogT"
+    - Name: PSet_Owner
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PSet_Owner"
+    - Name: PCmd_Start
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_Start"
+    - Name: PCmd_Stop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_Stop"
+    - Name: PCmd_Prog
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_Prog"
+    - Name: PCmd_Oper
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_Oper"
+    - Name: PCmd_Lock
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_Lock"
+    - Name: PCmd_Unlock
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_Unlock"
+    - Name: PCmd_Normal
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_Normal"
+    - Name: PCmd_Reset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_Reset"
+    - Name: PCmd_FailToStartAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_FailToStartAck"
+    - Name: PCmd_FailToStartSuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_FailToStartSuppress"
+    - Name: PCmd_FailToStartUnsuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_FailToStartUnsuppress"
+    - Name: PCmd_FailToStartUnshelve
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_FailToStartUnshelve"
+    - Name: PCmd_FailToStopAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_FailToStopAck"
+    - Name: PCmd_FailToStopSuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_FailToStopSuppress"
+    - Name: PCmd_FailToStopUnsuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_FailToStopUnsuppress"
+    - Name: PCmd_FailToStopUnshelve
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_FailToStopUnshelve"
+    - Name: PCmd_IntlkTripAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_IntlkTripAck"
+    - Name: PCmd_IntlkTripSuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_IntlkTripSuppress"
+    - Name: PCmd_IntlkTripUnsuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_IntlkTripUnsuppress"
+    - Name: PCmd_IntlkTripUnshelve
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_IntlkTripUnshelve"
+    - Name: PCmd_IOFaultAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_IOFaultAck"
+    - Name: PCmd_IOFaultSuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_IOFaultSuppress"
+    - Name: PCmd_IOFaultUnsuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_IOFaultUnsuppress"
+    - Name: PCmd_IOFaultUnshelve
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.PCmd_IOFaultUnshelve"
+    - Name: MCmd_Rel
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.MCmd_Rel"
+    - Name: OCmd_Unlock
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.OCmd_Unlock"
+    - Name: XCmd_Start
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.XCmd_Start"
+    - Name: XCmd_Stop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.XCmd_Stop"
+    - Name: XCmd_Jog
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.XCmd_Jog"
+    - Name: XCmd_Acq
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.XCmd_Acq"
+    - Name: XCmd_Rel
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.XCmd_Rel"
+    - Name: XCmd_Reset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.XCmd_Reset"
+    - Name: Out_Run
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Out_Run"
+    - Name: Out_Start
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Out_Start"
+    - Name: Out_Stop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Out_Stop"
+    - Name: Out_Horn
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Out_Horn"
+    - Name: SrcQ_IO
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.SrcQ_IO"
+    - Name: SrcQ
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.SrcQ"
+    - Name: Val_Cmd
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Val_Cmd"
+    - Name: Val_Fdbk
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Val_Fdbk"
+    - Name: Val_Sts
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Val_Sts"
+    - Name: Val_Fault
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Val_Fault"
+    - Name: Val_NotifyAll
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Val_NotifyAll"
+    - Name: Val_UnackAlmC
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Val_UnackAlmC"
+    - Name: Val_Owner
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Val_Owner"
+    - Name: Sts_Horn
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Horn"
+    - Name: Sts_Stopped
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Stopped"
+    - Name: Sts_Starting
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Starting"
+    - Name: Sts_Running
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Running"
+    - Name: Sts_Stopping
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Stopping"
+    - Name: Sts_Jogging
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Jogging"
+    - Name: Sts_Available
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Available"
+    - Name: Sts_Bypass
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Bypass"
+    - Name: Sts_BypActive
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_BypActive"
+    - Name: Sts_NotRdy
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_NotRdy"
+    - Name: Nrdy_CfgErr
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Nrdy_CfgErr"
+    - Name: Nrdy_Fail
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Nrdy_Fail"
+    - Name: Nrdy_Intlk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Nrdy_Intlk"
+    - Name: Nrdy_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Nrdy_IOFault"
+    - Name: Nrdy_OoS
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Nrdy_OoS"
+    - Name: Nrdy_Perm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Nrdy_Perm"
+    - Name: Nrdy_PrioStop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Nrdy_PrioStop"
+    - Name: Sts_MaintByp
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_MaintByp"
+    - Name: Sts_AlmInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_AlmInh"
+    - Name: Sts_Err
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Err"
+    - Name: Err_Timer
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Err_Timer"
+    - Name: Err_Sim
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Err_Sim"
+    - Name: Err_Alarm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Err_Alarm"
+    - Name: Sts_Hand
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Hand"
+    - Name: Sts_OoS
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_OoS"
+    - Name: Sts_Maint
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Maint"
+    - Name: Sts_Ovrd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Ovrd"
+    - Name: Sts_Ext
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Ext"
+    - Name: Sts_Prog
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Prog"
+    - Name: Sts_ProgLocked
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_ProgLocked"
+    - Name: Sts_Oper
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Oper"
+    - Name: Sts_OperLocked
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_OperLocked"
+    - Name: Sts_Normal
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_Normal"
+    - Name: Sts_ExtReqInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_ExtReqInh"
+    - Name: Sts_ProgReqInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_ProgReqInh"
+    - Name: Sts_MAcqRcvd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_MAcqRcvd"
+    - Name: Sts_RdyReset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_RdyReset"
+    - Name: Sts_RdyAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_RdyAck"
+    - Name: Sts_FailToStart
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_FailToStart"
+    - Name: Alm_FailToStart
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Alm_FailToStart"
+    - Name: Ack_FailToStart
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Ack_FailToStart"
+    - Name: Sts_FailToStartDisabled
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_FailToStartDisabled"
+    - Name: Sts_FailToStartShelved
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_FailToStartShelved"
+    - Name: Sts_FailToStartSuppressed
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_FailToStartSuppressed"
+    - Name: Sts_FailToStop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_FailToStop"
+    - Name: Alm_FailToStop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Alm_FailToStop"
+    - Name: Ack_FailToStop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Ack_FailToStop"
+    - Name: Sts_FailToStopDisabled
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_FailToStopDisabled"
+    - Name: Sts_FailToStopShelved
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_FailToStopShelved"
+    - Name: Sts_FailToStopSuppressed
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_FailToStopSuppressed"
+    - Name: Sts_IntlkTrip
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_IntlkTrip"
+    - Name: Alm_IntlkTrip
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Alm_IntlkTrip"
+    - Name: Ack_IntlkTrip
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Ack_IntlkTrip"
+    - Name: Sts_IntlkTripDisabled
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_IntlkTripDisabled"
+    - Name: Sts_IntlkTripShelved
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_IntlkTripShelved"
+    - Name: Sts_IntlkTripSuppressed
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_IntlkTripSuppressed"
+    - Name: Sts_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_IOFault"
+    - Name: Alm_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Alm_IOFault"
+    - Name: Ack_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Ack_IOFault"
+    - Name: Sts_IOFaultDisabled
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_IOFaultDisabled"
+    - Name: Sts_IOFaultShelved
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_IOFaultShelved"
+    - Name: Sts_IOFaultSuppressed
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.Sts_IOFaultSuppressed"
+    - Name: MRdy_Rel
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.MRdy_Rel"
+    - Name: ORdy_Unlock
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.ORdy_Unlock"
+    - Name: P_Motor
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.P_Motor_01.P_Motor"
+- Name: Running
+  Type: EthernetIPDriverTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Running"
+- Name: Start
+  Type: EthernetIPDriverTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Start"
+- Name: Stop
+  Type: EthernetIPDriverTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Stop"
+- Name: LevelSensor
+  Type: Analog_Device
+  Children:
+  - Name: hi
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.hi"
+  - Name: hihi
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.hihi"
+  - Name: lo
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.lo"
+  - Name: lolo
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.lolo"
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: hiSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.hiSP"
+  - Name: hihiSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.hihiSP"
+  - Name: loSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.loSP"
+  - Name: loloSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.loloSP"
+  - Name: alarm
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.alarm"
+  - Name: pv
+    Id: g=9daee89868d1958fd08a39e368b3b52a
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor.pv"
+- Name: Motor1
+  Type: Motor
+  Children:
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor1.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: alarm
+    Id: g=edd2c56686ab5855dbdd71c37941e6a4
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor1.alarm"
+  - Name: running
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor1.running"
+  - Name: alarm_description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor1.alarm_description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+- Name: Motor2
+  Type: Motor
+  Children:
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor2.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: alarm
+    Id: g=77129a05ce91c05085c70ece60060d7c
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor2.alarm"
+  - Name: running
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor2.running"
+  - Name: alarm_description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor2.alarm_description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+- Name: Motor3
+  Type: Motor
+  Children:
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor3.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: alarm
+    Id: g=ad8c6a22f7b1bd6623221211e128986b
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor3.alarm"
+  - Name: running
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor3.running"
+  - Name: alarm_description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor3.alarm_description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+- Name: Motor4
+  Type: Motor
+  Children:
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor4.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: alarm
+    Id: g=8b04f8ddac7037355e218463e1fdb429
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor4.alarm"
+  - Name: running
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor4.running"
+  - Name: alarm_description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor4.alarm_description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+- Name: Motor5
+  Type: Motor
+  Children:
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor5.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: alarm
+    Id: g=293b9dc0e07d423335cf63ed4cc1f9d4
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor5.alarm"
+  - Name: running
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor5.running"
+  - Name: alarm_description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Motor5.alarm_description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+- Name: LevelSensor2
+  Type: Analog_Device
+  Children:
+  - Name: hi
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.hi"
+  - Name: hihi
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.hihi"
+  - Name: lo
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.lo"
+  - Name: lolo
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.lolo"
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: hiSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.hiSP"
+  - Name: hihiSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.hihiSP"
+  - Name: loSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.loSP"
+  - Name: loloSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.loloSP"
+  - Name: alarm
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.alarm"
+  - Name: pv
+    Id: g=fbbb4bef14eb58725c5a2f677dcf41f2
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelSensor2.pv"
+- Name: LevelDeviation
+  Type: Analog_Device
+  Children:
+  - Name: hi
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.hi"
+  - Name: hihi
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.hihi"
+  - Name: lo
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.lo"
+  - Name: lolo
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.lolo"
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: hiSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.hiSP"
+  - Name: hihiSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.hihiSP"
+  - Name: loSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.loSP"
+  - Name: loloSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.loloSP"
+  - Name: alarm
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.alarm"
+  - Name: pv
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelDeviation.pv"
+- Name: LevelROC
+  Type: Analog_Device
+  Children:
+  - Name: hi
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.hi"
+  - Name: hihi
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.hihi"
+  - Name: lo
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.lo"
+  - Name: lolo
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.lolo"
+  - Name: description
+    Type: EthernetIPDriverTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.description"
+    - Name: MaximumLength
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 82
+  - Name: hiSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.hiSP"
+  - Name: hihiSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.hihiSP"
+  - Name: loSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.loSP"
+  - Name: loloSP
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.loloSP"
+  - Name: alarm
+    Type: EthernetIPDriverTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.alarm"
+  - Name: pv
+    Type: EthernetIPDriverTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LevelROC.pv"

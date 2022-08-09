@@ -1,0 +1,5 @@
+Name: EthernetIPDriver
+Type: EthernetIPDriver
+Children:
+- File: L85/L85.yaml
+- File: Echo/Echo.yaml

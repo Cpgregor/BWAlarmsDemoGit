@@ -1,0 +1,50 @@
+Name: Echo
+Id: g=bce87907ab94fa0179bc0f32c5109b0b
+Type: EthernetIPDriverStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 504
+- Name: IPAddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.1.27"
+- Name: Port
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 44818
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:01:0.0000000"
+- Name: PhysicalAddressOptimization
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=23;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: BaseObjectType

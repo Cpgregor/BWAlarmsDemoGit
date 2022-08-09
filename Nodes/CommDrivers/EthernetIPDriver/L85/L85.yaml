@@ -1,0 +1,1888 @@
+Name: L85
+Id: g=43030066e0d3d53a856e78a2f397ad08
+Type: EthernetIPDriverStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 504
+- Name: IPAddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "172.16.1.22"
+- Name: Port
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 44818
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:01:0.0000000"
+- Name: PhysicalAddressOptimization
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=23;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=23;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: BaseObjectType
+  Children:
+  - Name: P_Motor
+    Id: g=c23077ddb5422f8319f4e0d2b37c3ba3
+    Supertype: TagStructure
+    Children:
+    - Name: EnableIn
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableIn"
+    - Name: EnableOut
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableOut"
+    - Name: Inp_RunFdbk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_RunFdbk"
+    - Name: Inp_PermOK
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_PermOK"
+    - Name: Inp_NBPermOK
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_NBPermOK"
+    - Name: Inp_IntlkOK
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_IntlkOK"
+    - Name: Inp_NBIntlkOK
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_NBIntlkOK"
+    - Name: Inp_IntlkAvail
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_IntlkAvail"
+    - Name: Inp_OvldNotify
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_OvldNotify"
+    - Name: Inp_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_IOFault"
+    - Name: Inp_Sim
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Sim"
+    - Name: Inp_Hand
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Hand"
+    - Name: Inp_Ovrd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Ovrd"
+    - Name: Inp_OvrdCmd
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_OvrdCmd"
+    - Name: Inp_ExtInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_ExtInh"
+    - Name: Inp_HornInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_HornInh"
+    - Name: Inp_Reset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Reset"
+    - Name: Cfg_HasJog
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasJog"
+    - Name: Cfg_HasRunFdbk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasRunFdbk"
+    - Name: Cfg_UseRunFdbk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_UseRunFdbk"
+    - Name: Cfg_AllowLocal
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_AllowLocal"
+    - Name: Cfg_HasPermObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasPermObj"
+    - Name: Cfg_HasIntlkObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasIntlkObj"
+    - Name: Cfg_HasResInhObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasResInhObj"
+    - Name: Cfg_HasRunTimeObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasRunTimeObj"
+    - Name: Cfg_HasOvldObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasOvldObj"
+    - Name: Cfg_HasMoreObj
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasMoreObj"
+    - Name: Cfg_OperStopPrio
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OperStopPrio"
+    - Name: Cfg_ExtStopPrio
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_ExtStopPrio"
+    - Name: Cfg_OCmdResets
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OCmdResets"
+    - Name: Cfg_XCmdResets
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_XCmdResets"
+    - Name: Cfg_OvrdPermIntlk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OvrdPermIntlk"
+    - Name: Cfg_ShedOnFailToStart
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_ShedOnFailToStart"
+    - Name: Cfg_ShedOnIOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_ShedOnIOFault"
+    - Name: Cfg_HasFailToStartAlm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasFailToStartAlm"
+    - Name: Cfg_HasFailToStopAlm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasFailToStopAlm"
+    - Name: Cfg_HasIntlkTripAlm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasIntlkTripAlm"
+    - Name: Cfg_HasIOFaultAlm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_HasIOFaultAlm"
+    - Name: Cfg_FailToStartResetReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_FailToStartResetReqd"
+    - Name: Cfg_FailToStopResetReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_FailToStopResetReqd"
+    - Name: Cfg_IntlkTripResetReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_IntlkTripResetReqd"
+    - Name: Cfg_IOFaultResetReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_IOFaultResetReqd"
+    - Name: Cfg_FailToStartAckReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_FailToStartAckReqd"
+    - Name: Cfg_FailToStopAckReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_FailToStopAckReqd"
+    - Name: Cfg_IntlkTripAckReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_IntlkTripAckReqd"
+    - Name: Cfg_IOFaultAckReqd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_IOFaultAckReqd"
+    - Name: Cfg_FailToStartSeverity
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_FailToStartSeverity"
+    - Name: Cfg_FailToStopSeverity
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_FailToStopSeverity"
+    - Name: Cfg_IntlkTripSeverity
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_IntlkTripSeverity"
+    - Name: Cfg_IOFaultSeverity
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_IOFaultSeverity"
+    - Name: Cfg_StartHornT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_StartHornT"
+    - Name: Cfg_SimFdbkT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_SimFdbkT"
+    - Name: Cfg_FailToStartT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_FailToStartT"
+    - Name: Cfg_FailToStopT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_FailToStopT"
+    - Name: Cfg_MaxJogT
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_MaxJogT"
+    - Name: PSet_Owner
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PSet_Owner"
+    - Name: PCmd_Start
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_Start"
+    - Name: PCmd_Stop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_Stop"
+    - Name: PCmd_Prog
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_Prog"
+    - Name: PCmd_Oper
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_Oper"
+    - Name: PCmd_Lock
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_Lock"
+    - Name: PCmd_Unlock
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_Unlock"
+    - Name: PCmd_Normal
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_Normal"
+    - Name: PCmd_Reset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_Reset"
+    - Name: PCmd_FailToStartAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_FailToStartAck"
+    - Name: PCmd_FailToStartSuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_FailToStartSuppress"
+    - Name: PCmd_FailToStartUnsuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_FailToStartUnsuppress"
+    - Name: PCmd_FailToStartUnshelve
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_FailToStartUnshelve"
+    - Name: PCmd_FailToStopAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_FailToStopAck"
+    - Name: PCmd_FailToStopSuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_FailToStopSuppress"
+    - Name: PCmd_FailToStopUnsuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_FailToStopUnsuppress"
+    - Name: PCmd_FailToStopUnshelve
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_FailToStopUnshelve"
+    - Name: PCmd_IntlkTripAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_IntlkTripAck"
+    - Name: PCmd_IntlkTripSuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_IntlkTripSuppress"
+    - Name: PCmd_IntlkTripUnsuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_IntlkTripUnsuppress"
+    - Name: PCmd_IntlkTripUnshelve
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_IntlkTripUnshelve"
+    - Name: PCmd_IOFaultAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_IOFaultAck"
+    - Name: PCmd_IOFaultSuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_IOFaultSuppress"
+    - Name: PCmd_IOFaultUnsuppress
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_IOFaultUnsuppress"
+    - Name: PCmd_IOFaultUnshelve
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PCmd_IOFaultUnshelve"
+    - Name: MCmd_Rel
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MCmd_Rel"
+    - Name: OCmd_Unlock
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OCmd_Unlock"
+    - Name: XCmd_Start
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "XCmd_Start"
+    - Name: XCmd_Stop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "XCmd_Stop"
+    - Name: XCmd_Jog
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "XCmd_Jog"
+    - Name: XCmd_Acq
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "XCmd_Acq"
+    - Name: XCmd_Rel
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "XCmd_Rel"
+    - Name: XCmd_Reset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "XCmd_Reset"
+    - Name: Out_Run
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Out_Run"
+    - Name: Out_Start
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Out_Start"
+    - Name: Out_Stop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Out_Stop"
+    - Name: Out_Horn
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Out_Horn"
+    - Name: SrcQ_IO
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SrcQ_IO"
+    - Name: SrcQ
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SrcQ"
+    - Name: Val_Cmd
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Val_Cmd"
+    - Name: Val_Fdbk
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Val_Fdbk"
+    - Name: Val_Sts
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Val_Sts"
+    - Name: Val_Fault
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Val_Fault"
+    - Name: Val_NotifyAll
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Val_NotifyAll"
+    - Name: Val_UnackAlmC
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Val_UnackAlmC"
+    - Name: Val_Owner
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      ModellingRule: Optional
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Val_Owner"
+    - Name: Sts_Horn
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Horn"
+    - Name: Sts_Stopped
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Stopped"
+    - Name: Sts_Starting
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Starting"
+    - Name: Sts_Running
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Running"
+    - Name: Sts_Stopping
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Stopping"
+    - Name: Sts_Jogging
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Jogging"
+    - Name: Sts_Available
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Available"
+    - Name: Sts_Bypass
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Bypass"
+    - Name: Sts_BypActive
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_BypActive"
+    - Name: Sts_NotRdy
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_NotRdy"
+    - Name: Nrdy_CfgErr
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Nrdy_CfgErr"
+    - Name: Nrdy_Fail
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Nrdy_Fail"
+    - Name: Nrdy_Intlk
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Nrdy_Intlk"
+    - Name: Nrdy_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Nrdy_IOFault"
+    - Name: Nrdy_OoS
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Nrdy_OoS"
+    - Name: Nrdy_Perm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Nrdy_Perm"
+    - Name: Nrdy_PrioStop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Nrdy_PrioStop"
+    - Name: Sts_MaintByp
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_MaintByp"
+    - Name: Sts_AlmInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_AlmInh"
+    - Name: Sts_Err
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Err"
+    - Name: Err_Timer
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Err_Timer"
+    - Name: Err_Sim
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Err_Sim"
+    - Name: Err_Alarm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Err_Alarm"
+    - Name: Sts_Hand
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Hand"
+    - Name: Sts_OoS
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_OoS"
+    - Name: Sts_Maint
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Maint"
+    - Name: Sts_Ovrd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Ovrd"
+    - Name: Sts_Ext
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Ext"
+    - Name: Sts_Prog
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Prog"
+    - Name: Sts_ProgLocked
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_ProgLocked"
+    - Name: Sts_Oper
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Oper"
+    - Name: Sts_OperLocked
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_OperLocked"
+    - Name: Sts_Normal
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Normal"
+    - Name: Sts_ExtReqInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_ExtReqInh"
+    - Name: Sts_ProgReqInh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_ProgReqInh"
+    - Name: Sts_MAcqRcvd
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_MAcqRcvd"
+    - Name: Sts_RdyReset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_RdyReset"
+    - Name: Sts_RdyAck
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_RdyAck"
+    - Name: Sts_FailToStart
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_FailToStart"
+    - Name: Alm_FailToStart
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alm_FailToStart"
+    - Name: Ack_FailToStart
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ack_FailToStart"
+    - Name: Sts_FailToStartDisabled
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_FailToStartDisabled"
+    - Name: Sts_FailToStartShelved
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_FailToStartShelved"
+    - Name: Sts_FailToStartSuppressed
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_FailToStartSuppressed"
+    - Name: Sts_FailToStop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_FailToStop"
+    - Name: Alm_FailToStop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alm_FailToStop"
+    - Name: Ack_FailToStop
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ack_FailToStop"
+    - Name: Sts_FailToStopDisabled
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_FailToStopDisabled"
+    - Name: Sts_FailToStopShelved
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_FailToStopShelved"
+    - Name: Sts_FailToStopSuppressed
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_FailToStopSuppressed"
+    - Name: Sts_IntlkTrip
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_IntlkTrip"
+    - Name: Alm_IntlkTrip
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alm_IntlkTrip"
+    - Name: Ack_IntlkTrip
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ack_IntlkTrip"
+    - Name: Sts_IntlkTripDisabled
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_IntlkTripDisabled"
+    - Name: Sts_IntlkTripShelved
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_IntlkTripShelved"
+    - Name: Sts_IntlkTripSuppressed
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_IntlkTripSuppressed"
+    - Name: Sts_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_IOFault"
+    - Name: Alm_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alm_IOFault"
+    - Name: Ack_IOFault
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ack_IOFault"
+    - Name: Sts_IOFaultDisabled
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_IOFaultDisabled"
+    - Name: Sts_IOFaultShelved
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_IOFaultShelved"
+    - Name: Sts_IOFaultSuppressed
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_IOFaultSuppressed"
+    - Name: MRdy_Rel
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MRdy_Rel"
+    - Name: ORdy_Unlock
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ORdy_Unlock"
+    - Name: P_Motor
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P_Motor"
+  - Name: Analog_Device
+    Id: g=c322c02ed09c3761a771043adcdebab1
+    Supertype: TagStructure
+    Children:
+    - Name: hi
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "hi"
+    - Name: hihi
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "hihi"
+    - Name: lo
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "lo"
+    - Name: lolo
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "lolo"
+    - Name: description
+      Type: EthernetIPDriverTag
+      DataType: String
+      ModellingRule: Optional
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "description"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: Optional
+        Value: 82
+    - Name: hiSP
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "hiSP"
+    - Name: hihiSP
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "hihiSP"
+    - Name: loSP
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "loSP"
+    - Name: loloSP
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "loloSP"
+    - Name: alarm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "alarm"
+    - Name: pv
+      Type: EthernetIPDriverTag
+      DataType: Float
+      ModellingRule: Optional
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "pv"
+  - Name: Motor
+    Id: g=e7ec9fd3cba0fa10f0bf769f00142e3a
+    Supertype: TagStructure
+    Children:
+    - Name: description
+      Type: EthernetIPDriverTag
+      DataType: String
+      ModellingRule: Optional
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "description"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: Optional
+        Value: 82
+    - Name: alarm
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "alarm"
+    - Name: running
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "running"
+    - Name: alarm_description
+      Type: EthernetIPDriverTag
+      DataType: String
+      ModellingRule: Optional
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "alarm_description"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: Optional
+        Value: 82
