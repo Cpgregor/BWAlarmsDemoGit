@@ -6,7 +6,7 @@ using UAManagedCore;
 using OpcUa = UAManagedCore.OpcUa;
 using FTOptix.NetLogic;
 using FTOptix.Core;
-using FTOptix.Datalogger;
+using FTOptix.DataLogger;
 using FTOptix.Report;
 #endregion
 

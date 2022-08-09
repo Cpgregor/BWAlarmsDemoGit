@@ -5,7 +5,7 @@ using FTOptix.HMIProject;
 using UAManagedCore;
 using FTOptix.UI;
 using FTOptix.NetLogic;
-using FTOptix.Datalogger;
+using FTOptix.DataLogger;
 using FTOptix.Report;
 #endregion
 

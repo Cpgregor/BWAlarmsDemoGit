@@ -451,7 +451,7 @@ Children:
         DataType: NodePath
         Value: "../../EventArguments/LowState"
 - Name: TrendDataLogger
-  Type: Datalogger
+  Type: DataLogger
   Children:
   - Name: SamplingMode
     Type: PropertyType

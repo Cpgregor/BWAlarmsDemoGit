@@ -1,5 +1,5 @@
 Name: TagImporter
-Type: EthernetIPDriverTagImporter
+Type: EthernetIPTagImporter
 OwnerId: ns=2;g=43030066e0d3d53a856e78a2f397ad08
 Children:
 - Name: FilePath

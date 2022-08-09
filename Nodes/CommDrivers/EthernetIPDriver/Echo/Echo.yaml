@@ -1,6 +1,6 @@
 Name: Echo
 Id: g=bce87907ab94fa0179bc0f32c5109b0b
-Type: EthernetIPDriverStation
+Type: EthernetIPStation
 Children:
 - Name: MaximumJobSizeInBytes
   Type: BaseDataVariableType

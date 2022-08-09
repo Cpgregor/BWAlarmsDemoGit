@@ -6,7 +6,7 @@ using UAManagedCore;
 using System.Linq;
 using UAManagedCore.Logging;
 using FTOptix.NetLogic;
-using FTOptix.Datalogger;
+using FTOptix.DataLogger;
 using FTOptix.Report;
 #endregion
 

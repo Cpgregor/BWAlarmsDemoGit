@@ -3,7 +3,7 @@ Type: BaseObjectType
 Children:
 - Name: TrendValue1
   Id: g=09bdb4ffe53ef05c61fcbac041a1aa4b
-  Type: EthernetIPDriverTag
+  Type: EthernetIPTag
   DataType: Float
   Value: 0.0
   Children:
@@ -13,7 +13,7 @@ Children:
     Value: "TrendValue1"
 - Name: TrendValue2
   Id: g=8a0028c3eaf1206d2549070943fb6c20
-  Type: EthernetIPDriverTag
+  Type: EthernetIPTag
   DataType: Float
   Value: 0.0
   Children:
@@ -23,7 +23,7 @@ Children:
     Value: "TrendValue2"
 - Name: TrendValue3
   Id: g=cbc91bd4d8e74b039cbabbba66f02195
-  Type: EthernetIPDriverTag
+  Type: EthernetIPTag
   DataType: Float
   Value: 0.0
   Children:

@@ -13,7 +13,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.OPCUAClient;
 using FTOptix.OPCUAServer;
 using FTOptix.Report;
-using FTOptix.Datalogger;
+using FTOptix.DataLogger;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic
