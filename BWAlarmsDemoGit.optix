@@ -120,5 +120,13 @@ Project:
    Uri: 'urn:FTOptix:EthernetIP:Net'
    Module: FTOptix.EthernetIP.Net
    Version: 1.0
+  31:
+   Uri: 'urn:FTOptix:ODBCStore'
+   Module: FTOptix.ODBCStore
+   Version: 1.0
+  32:
+   Uri: 'urn:FTOptix:ODBCStore:Net'
+   Module: FTOptix.ODBCStore.Net
+   Version: 1.0
  Nodes:
  - File: Nodes/BWAlarmsDemoGit.yaml

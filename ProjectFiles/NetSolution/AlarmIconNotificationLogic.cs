@@ -8,6 +8,7 @@ using UAManagedCore.Logging;
 using FTOptix.NetLogic;
 using FTOptix.DataLogger;
 using FTOptix.Report;
+using FTOptix.ODBCStore;
 #endregion
 
 public class AlarmIconNotificationLogic : BaseNetLogic
