@@ -44,6 +44,22 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":71,"Namespace":5}
+      - Name: Panel3
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Parts Ordering"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"30320073dfe17e040e9cd155ded4ad94","Namespace":30}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":5}
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -426,3 +442,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 110.0
+- Name: PartsOrdering
+  Id: g=30320073dfe17e040e9cd155ded4ad94
+  Supertype: MainBodyTemplate
+  ReferenceType: HasComponent
