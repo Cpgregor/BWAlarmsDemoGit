@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.DataLogger;
 using FTOptix.Report;
+using FTOptix.ODBCStore;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic

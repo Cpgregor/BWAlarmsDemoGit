@@ -14,6 +14,7 @@ using FTOptix.OPCUAClient;
 using FTOptix.OPCUAServer;
 using FTOptix.Report;
 using FTOptix.DataLogger;
+using FTOptix.ODBCStore;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic
