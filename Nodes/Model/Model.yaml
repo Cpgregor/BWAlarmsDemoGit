@@ -1,2 +1,23 @@
 Name: Model
 Type: FolderType
+Children:
+- Name: Part1Qty
+  Id: g=4e3f2585b9105807d2b6ec1c8b55af2a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Part2Qty
+  Id: g=b2b9124406106ebd272150cf8f88bfe8
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Part3Qty
+  Id: g=d232b41034362210d710fcd947c18a60
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Part4Qty
+  Id: g=be0ebdc9e5ad19b68c03faa5e68285f2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

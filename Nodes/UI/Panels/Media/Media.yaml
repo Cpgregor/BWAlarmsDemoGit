@@ -188,7 +188,7 @@ Children:
     - Name: URL
       Type: BaseDataVariableType
       DataType: ResourceUri
-      Value: "https://www.psangelus.com/"
+      Value: "https://www.quadratec.com/p/superlift/4-lift-kit-jeep-wrangler-jk-unlimited"
     - Class: Reference
       Target: ns=5;i=354
       Direction: Forward
