@@ -2,8 +2,13 @@ Name: NetLogic
 Type: FolderType
 Children:
 - Name: rtnlQueryFaultDB
+  Id: g=3427cc9ee0bbb1623f09749452076db7
   Type: NetLogic
+  Children:
+  - Class: Method
+    Name: GetFaultFields
 - Name: rtnlImportFaults
+  Id: g=cba451d16f7936813677ed3350d24411
   Type: NetLogic
   Children:
   - Class: Method

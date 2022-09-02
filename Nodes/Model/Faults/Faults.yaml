@@ -2,6 +2,7 @@ Name: Faults
 Type: FolderType
 Children:
 - Name: varSelected
+  Id: g=f5865d8ddaba990eb5b21a0caa88b49e
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
