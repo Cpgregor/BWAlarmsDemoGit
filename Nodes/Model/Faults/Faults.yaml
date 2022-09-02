@@ -1,0 +1,7 @@
+Name: Faults
+Type: FolderType
+Children:
+- Name: varSelected
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

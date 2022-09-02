@@ -21,3 +21,4 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- File: Faults/Faults.yaml

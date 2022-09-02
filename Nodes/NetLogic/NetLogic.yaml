@@ -1,2 +1,14 @@
 Name: NetLogic
 Type: FolderType
+Children:
+- Name: rtnlQueryFaultDB
+  Type: NetLogic
+- Name: rtnlImportFaults
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: ImportFaults
+  - Name: FaultCSVFile
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/CSV/Faults.CSV"

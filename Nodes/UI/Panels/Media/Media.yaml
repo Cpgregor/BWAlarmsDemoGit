@@ -152,7 +152,7 @@ Children:
     - Name: Path
       Type: BaseDataVariableType
       DataType: ResourceUri
-      Value: "ns=30;%PROJECTDIR%/PDFs/6300p-pp001_-en-p.pdf"
+      Value: "https://www.bwflexiblesystems.com/machine/vertical-form-fill-seal/hayssen-isb"
     - Name: CurrentPage
       Type: BaseDataVariableType
       DataType: Int32
