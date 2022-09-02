@@ -912,7 +912,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 81.0
+      Value: 80.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -1235,7 +1235,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 81.0
+      Value: 80.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -1369,7 +1369,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 81.0
+      Value: 80.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
