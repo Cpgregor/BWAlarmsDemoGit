@@ -1331,7 +1331,7 @@ Children:
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"c81c0789fd49344d46749396567cba11","Namespace":30}
+        Value: {"IdType":2,"Id":"88a0d2a463aa6ae045ee5665f378b85b","Namespace":30}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -2733,81 +2733,7 @@ Children:
     DataType: Boolean
     ModellingRule: Optional
     Value: false
-  - Name: SplashPanel
-    Type: Panel
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1020.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 840.0
-    - Name: Delay
-      Type: BaseDataVariableType
-      DataType: Duration
-      Value: "0:00:00:5.0000000"
-    - Name: SplashPanelLogic
-      Type: NetLogic
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: Opacity
-      Type: BaseVariableType
-      DataType: Float
-      Value: 100.0
-    - Name: NextPanel
-      Type: NodePointer
-      DataType: NodeId
-      Value: {"IdType":2,"Id":"c81c0789fd49344d46749396567cba11","Namespace":30}
-      Children:
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-        Value: {"Id":71,"Namespace":5}
-      - Name: NodeClass
-        Type: PropertyType
-        DataType: NodePointerNodeClass
-        ModellingRule: Optional
-        Value: 1
-    - Name: Image1
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=30;%PROJECTDIR%/Images/psa_logo_one-line-w-caption (1).png"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 2
 - File: Templates/Templates.yaml
 - File: Panels/Panels.yaml
 - File: StyleSheets/StyleSheets.yaml
+- File: SplashScreen/SplashScreen.yaml
