@@ -85,7 +85,7 @@ public class rtnlImportFaults : BaseNetLogic
                 i++;
             }
 
-            var importLabel = Project.Current.Get<Label>("UI/MainWindow/pnlFault/lblImport");
+            var importLabel = Project.Current.Get<Label>("UI/Panels/Reporting/FaultLookup/lblImport");
             importLabel.Text = "Imported " + i.ToString() + " fault defintions.";
 
             tableFaults.Insert(columns, newValues);
