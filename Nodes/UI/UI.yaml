@@ -1331,7 +1331,7 @@ Children:
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"c81c0789fd49344d46749396567cba11","Namespace":30}
+        Value: {"IdType":2,"Id":"88a0d2a463aa6ae045ee5665f378b85b","Namespace":30}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -2736,3 +2736,4 @@ Children:
 - File: Templates/Templates.yaml
 - File: Panels/Panels.yaml
 - File: StyleSheets/StyleSheets.yaml
+- File: SplashScreen/SplashScreen.yaml
